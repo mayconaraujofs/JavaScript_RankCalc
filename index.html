@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto1</title>
-    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="title">Calculadora de Partidas Rankeadas</h1>
-        <h2>Número de Vitórias</h2>
-        <h2>Número de Derrotas</h2>
-        <input type="number">
-        <input type="number">
+    <div class="area">
+        <div class="container">
+            <h1>Calculadora de Partidas Rankeadas</h1>
+            <div class="input_area">
+                <h2> Vitórias </h2>
+                <input id="vitorias" type="number">
+            </div>
+            <div class="input_area">
+                <h2> Derrotas </h2>
+                <input id="derrotas" type="number">
+            </div>
+            <button onclick="calculate()">Calcular</button>
+            <textarea name="" id="text_area" rows="8"></textarea>
+            </div>
+           
+        </div> 
+        <script src="script.js"></script> 
+    </div>        
+    
+        
+
+
+    
 
 
 
