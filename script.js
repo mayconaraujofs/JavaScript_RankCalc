@@ -1,9 +1,9 @@
 function calculate(){
-    var vitoria = document.getElementById("vitorias").value
-    var derrota = document.getElementById("derrotas").value
+    let vitoria = document.getElementById("vitorias").value
+    let derrota = document.getElementById("derrotas").value
     
-    var saldoVitorias = (vitoria - derrota);
-    var text=""   
+    let saldoVitorias = (vitoria - derrota);
+    let text=""   
     if (saldoVitorias<=10){
         text="O herói tem saldo de vitória de " + saldoVitorias + " e está no nível Ferro"
     } else if (saldoVitorias<=20){

@@ -3,6 +3,7 @@ h2{
 }h1{
     margin-block-start: 0em; 
     color: white;
+    text-align: center;
 }
 .input_area{
     width: 100%;
@@ -16,6 +17,7 @@ input{
 textarea{
     width: 100%;
     margin-top: 2em;
+    font-weight: 400;
     
 }
 .container{
